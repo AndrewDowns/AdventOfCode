@@ -30,6 +30,7 @@ def valid(password):
 
 valid_count = 0
 passwords = populatePasswords()
+valid_passwords = []
 
 for password in passwords:
     if valid(password):
